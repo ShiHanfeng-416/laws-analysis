@@ -39,6 +39,7 @@ llama-index-embeddings-openai = ">=0.3"
 # 工程杂项
 python-dotenv = ">=1.0"
 rich = ">=13.0"
+pyyaml = ">=6.0"            # 合同审查规则库 rules.yaml
 
 # ---------------------------------------------------------------------------
 # 可选：完全本地、不出网的 Embedding（会带上 torch，体积大，按需启用）
@@ -50,8 +51,16 @@ transformers = ">=4.50"
 torch = ">=2.10.0, <3"
 modelscope = ">=1.40.1, <2"
 
+# 可选：Streamlit UI（pixi run -e ui app）
+[feature.ui.pypi-dependencies]
+streamlit = ">=1.36"
+
+[feature.ui.tasks]
+app = { cmd = "python -m streamlit run app.py", description = "启动 Web UI" }
+
 [environments]
 local-embed = ["local-embed"]
+ui = ["ui"]
 
 # ---------------------------------------------------------------------------
 # 常用命令

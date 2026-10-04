@@ -64,6 +64,10 @@ class LawChunk:
     article_no: str      # 如 "第七百零四条"；非条文块为 ""
     section: str         # 所属章节名，如 "第二编 合同"；无章节为 ""
     text: str            # 纯正文
+    # 以下两个 doc 级字段冗余进 chunk（架构 §6：docstore 记录含施行日期与来源，
+    # 引用组装 Citation 时直接从检索结果取，免去再查一遍元数据）
+    effective_date: str = "未知"   # 施行日期（AC-6）
+    source_url: str = ""           # 官方来源链接（FR-5.3）
 
     @property
     def embed_text(self) -> str:

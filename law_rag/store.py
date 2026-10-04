@@ -32,7 +32,8 @@ import numpy as np
 from law_rag.config import get_settings
 from law_rag.schemas import LawChunk
 
-_DOC_FIELDS = ("doc_id", "law_title", "article_no", "section", "text")
+_DOC_FIELDS = ("doc_id", "law_title", "article_no", "section", "text",
+               "effective_date", "source_url")
 
 
 def file_sha256(path: Path) -> str:
@@ -176,6 +177,8 @@ class VectorStore:
             results.append((LawChunk(
                 chunk_id=cid, doc_id=rec["doc_id"], law_title=rec["law_title"],
                 article_no=rec["article_no"], section=rec["section"], text=rec["text"],
+                effective_date=rec.get("effective_date", "未知"),
+                source_url=rec.get("source_url", ""),
             ), float(score)))
             if len(results) >= top_k:
                 break

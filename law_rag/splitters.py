@@ -126,6 +126,8 @@ def split_document(doc: LawDocument) -> list[LawChunk]:
                     article_no=article_no,
                     section=section,
                     text=piece,
+                    effective_date=doc.effective_date,
+                    source_url=doc.source_url,
                 )
             )
 

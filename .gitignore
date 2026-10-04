@@ -1,0 +1,24 @@
+# pixi
+.pixi/
+pixi.lock.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# 向量索引（可由 data/laws 重建）
+data/index/
+
+# 原始下载件体积较大，正文已落在 data/laws
+data/raw/
+
+# 密钥
+.env
+
+# 临时
+_out.txt
+_probe.py
+_bundle.js
+_chunk_*.js

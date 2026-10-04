@@ -1,0 +1,63 @@
+[workspace]
+name = "law-rag"
+version = "0.1.0"
+description = "个人法律助手：本地法规库 + 检索增强生成（RAG）问答"
+authors = ["you"]
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64", "osx-arm64"]
+
+# ---------------------------------------------------------------------------
+# 基础运行时：conda 只管 Python 与编译器级依赖，
+# 生态库统一走 PyPI（langchain / llama-index / faiss 在 PyPI 上版本最新）
+# ---------------------------------------------------------------------------
+[dependencies]
+python = "3.11.*"
+pip = "*"
+
+# 国内网络下 PyPI 官方源较慢，这里用清华镜像；在海外可整段删除
+[pypi-options]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+
+[pypi-dependencies]
+# 文档加载 / 解析
+pypdf = ">=5.0"
+python-docx = ">=1.1"
+olefile = ">=0.47"          # 解析老版 .doc（OLE2）
+# 编排与切分
+langchain = ">=0.3"
+langchain-community = ">=0.3"
+langchain-core = ">=0.3"
+langchain-text-splitters = ">=0.3"
+langchain-openai = ">=0.2"          # OpenAI 兼容协议：DeepSeek / 智谱 / 通义 / 本地 Ollama 都能接
+tiktoken = ">=0.8"
+# 向量库
+faiss-cpu = ">=1.9"
+# LlamaIndex 侧（与 LangChain 二选一或并存）
+llama-index-core = ">=0.12"
+llama-index-vector-stores-faiss = ">=0.3"
+llama-index-embeddings-openai = ">=0.3"
+# 工程杂项
+python-dotenv = ">=1.0"
+rich = ">=13.0"
+
+# ---------------------------------------------------------------------------
+# 可选：完全本地、不出网的 Embedding（会带上 torch，体积大，按需启用）
+#   pixi run -e local-embed build-index
+# ---------------------------------------------------------------------------
+[feature.local-embed.pypi-dependencies]
+sentence-transformers = ">=3.0"
+
+[environments]
+local-embed = ["local-embed"]
+
+# ---------------------------------------------------------------------------
+# 常用命令
+# ---------------------------------------------------------------------------
+[tasks]
+fetch-laws = "python scripts/fetch_laws.py"
+fetch-laws-dry = "python scripts/fetch_laws.py --dry-run"
+build-index = { cmd = "python -m law_rag.build_index", description = "构建 / 增量更新 FAISS 向量索引" }
+ask = { cmd = "python -m law_rag.ask", description = "提问，例：pixi run ask 房东不退押金怎么办" }
+
+[activation]
+env = { PYTHONPATH = "." }

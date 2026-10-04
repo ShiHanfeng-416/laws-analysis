@@ -175,5 +175,5 @@ def get_settings() -> Settings:
         chunk_size=_env_int("CHUNK_SIZE", 600),
         chunk_overlap=_env_int("CHUNK_OVERLAP", 120),
         laws_dir=_env_path("LAWS_DIR", "data"),
-        index_dir=_env_path("INDEX_DIR", "index"),
+        index_dir=_env_path("INDEX_DIR", "data/index"),  # 对齐架构 §6 与 .gitignore：索引落 data/index/
     )

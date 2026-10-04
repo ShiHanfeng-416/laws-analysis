@@ -1,0 +1,15 @@
+{
+    // 静态检查（basedpyright/pyright）绑定 pixi 默认环境，与 pixi.toml 声明的依赖保持一致
+    // 注意：pyright 配置文件不支持 "pythonPath" 键，须用 venvPath + venv 指定解释器
+    "venvPath": ".pixi/envs",
+    "venv": "default",
+    // 环境目录与缓存不参与检查，避免无谓扫描拖慢分析
+    "exclude": [".pixi", "**/__pycache__"],
+    // 镜像 pixi activation 里的 PYTHONPATH="."，使 law_rag.* 顶层导入可解析
+    "executionEnvironments": [
+        {
+            "root": ".",
+            "extraPaths": ["."]
+        }
+    ]
+}

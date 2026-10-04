@@ -17,6 +17,9 @@ data/raw/
 # 密钥
 .env
 
+# 本地模型权重（1.2GB，可重新下载）
+models/
+
 # 临时
 _out.txt
 _probe.py

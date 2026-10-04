@@ -1,0 +1,5 @@
+{
+    // 钉住 pixi 默认环境：VS Code、集成终端、调试器都固定用它，
+    // 免去每次手选（部分 Python 扩展版本的选择 UI 有 "Unable to handle" 报错）
+    "python.defaultInterpreterPath": ".pixi/envs/default/python.exe"
+}

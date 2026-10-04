@@ -46,6 +46,9 @@ rich = ">=13.0"
 # ---------------------------------------------------------------------------
 [feature.local-embed.pypi-dependencies]
 sentence-transformers = ">=3.0"
+transformers = ">=4.50"
+torch = ">=2.10.0, <3"
+modelscope = ">=1.40.1, <2"
 
 [environments]
 local-embed = ["local-embed"]
@@ -60,4 +63,5 @@ build-index = { cmd = "python -m law_rag.build_index", description = "构建 / �
 ask = { cmd = "python -m law_rag.ask", description = "提问，例：pixi run ask 房东不退押金怎么办" }
 
 [activation]
-env = { PYTHONPATH = "." }
+# PYTHONNOUSERSITE：屏蔽用户全局 site-packages，保证只用本环境锁定的依赖版本
+env = { PYTHONPATH = ".", PYTHONNOUSERSITE = "1" }

@@ -432,10 +432,12 @@ environments:
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/3f/6f/06c0824ee2611de47a0fc731fa57f6042d3f573025d9f504adfd65e50d51/banks-2.5.1-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/f7/a4/4399daaf8f7dfee9d7c3327fdb0426ee041cc63edc358b93911ceb2bfc7a/cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/e4/ed/cf505d3011ffceb12c2067a7a5d3cfe92b875d4d44bb0ff0d69375e2c184/charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/1a/f1/b474e930c4d910328780e3940da76f5aa5cbc48ce1fc14e44d239d9ea9db/cryptography-50.0.2-cp311-abi3-manylinux_2_28_x86_64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/ba/c7/ff34500e11229c5487bd7c35e03d0f91832ffde50bdb3f963f7aba485357/cuda_bindings-13.4.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/b9/fb/f8e1890428f9f590b4beebd63b068aac1ce32a3331510c847b9f9a78f261/cuda_pathfinder-1.8.3-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/d1/c7/a79086a62c98befcdb8349656c6f114e2db3b8b2422f6e25c97a7f2a9a3c/cuda_toolkit-13.0.3.0-py2.py3-none-any.whl
@@ -489,6 +491,8 @@ environments:
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/81/a5/a513b76c139a3915b43404324e55c0b7979ae4f0d39eb6f075b0282e90a8/markupsafe-3.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/be/2f/5108cb3ee4ba6501748c4908b908e55f42a5b66245b4cfe0c99326e1ef6e/marshmallow-3.26.2-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/f8/ea/78b33ab6fe73db1eeedc5df229450d7ff481ec9050f4bcc46e44ef1c00fb/modelscope-1.40.1-py3-none-any.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/5a/bc/8c1aa12b4abc094a4c1e2b3cd28686c750b4fad610eb1aa7acfe5d8c521e/modelscope_hub-0.4.5-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/27/50/f420de3683f9b047fc5588064d84043ef57a7152ef451b8373dfc7068d22/multidict-6.9.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl
@@ -519,6 +523,7 @@ environments:
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/3b/2d/ede717bc1144f63886c21fd349bb95860b0d1a21149ff16f2bb362b612b6/pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/d0/89/446044f33aba0348d35e433f56d12206d010a5281a1df54054d4cfb82388/platformdirs-4.12.2-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/c7/06/519a5ebb48b6f94beb48396e55c905f12246a25c3a3608a7ec7bceabf50e/propcache-0.5.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/eb/47/c95ffc2009878c7aac0c5e08528022dcb885933252a88b5f170058014464/pydantic-2.13.5-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/cf/bc/3fa2d76b83162820a17da7f645b28d1cba99fc8e1e5fc6517067ec450fa1/pydantic_core-2.46.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/30/a4/2bffa9f8e804325a09867f0e9d30795c80ea9f8d62560bd1b6ad6220eb2f/pydantic_settings-2.15.0-py3-none-any.whl
@@ -591,10 +596,12 @@ environments:
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/3f/6f/06c0824ee2611de47a0fc731fa57f6042d3f573025d9f504adfd65e50d51/banks-2.5.1-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/cd/95/31b535a9f0220ae9f357de4a08d57ce89cb417653c2fd9f075f50822a388/cffi-2.1.1-cp311-cp311-macosx_11_0_arm64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/22/67/6a0b94a7960d5e1b5eacd2fb529f3fccc47db4644f7f0a7cfdcfc3be578a/charset_normalizer-3.5.2-cp311-cp311-macosx_10_9_universal2.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/e5/56/d194340cc4a57535e82e1bee9e89667ac4b7c13b5d3f59686deae3094dd5/cryptography-50.0.2-cp311-abi3-macosx_11_0_arm64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/c3/be/d0d44e092656fe7a06b55e6103cbce807cdbdee17884a5367c68c9860853/dataclasses_json-0.6.7-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/84/d0/205d54408c08b13550c733c4b85429e7ead111c7f0014309637425520a9a/deprecated-1.3.1-py2.py3-none-any.whl
@@ -645,6 +652,8 @@ environments:
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/6c/14/0b05f79b4733e264a18d08fe08fa1df7347630ff32a6cb82180d9dccec55/markupsafe-3.0.4-cp311-cp311-macosx_11_0_arm64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/be/2f/5108cb3ee4ba6501748c4908b908e55f42a5b66245b4cfe0c99326e1ef6e/marshmallow-3.26.2-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/f8/ea/78b33ab6fe73db1eeedc5df229450d7ff481ec9050f4bcc46e44ef1c00fb/modelscope-1.40.1-py3-none-any.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/5a/bc/8c1aa12b4abc094a4c1e2b3cd28686c750b4fad610eb1aa7acfe5d8c521e/modelscope_hub-0.4.5-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/8c/ca/5860651f782078ef13f2761c2593f4ba066d76f626b2f30f23a7f838b775/multidict-6.9.1-cp311-cp311-macosx_11_0_arm64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl
@@ -660,6 +669,7 @@ environments:
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/b2/5b/a02d30018abd97ced9f5a6c63d28597694a00d066516b9c1c6de45859fc9/pillow-12.3.0-cp311-cp311-macosx_11_0_arm64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/d0/89/446044f33aba0348d35e433f56d12206d010a5281a1df54054d4cfb82388/platformdirs-4.12.2-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/05/cf/b5248180bf056cc76acc60c9c6e8c0ebbfdbd1c6cffd31fd14996927b7c8/propcache-0.5.4-cp311-cp311-macosx_11_0_arm64.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/eb/47/c95ffc2009878c7aac0c5e08528022dcb885933252a88b5f170058014464/pydantic-2.13.5-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/0c/18/b70da8300e292df4099684ea11b1958043580d2f50d2dc8bf7e542bdd84a/pydantic_core-2.46.5-cp311-cp311-macosx_11_0_arm64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/30/a4/2bffa9f8e804325a09867f0e9d30795c80ea9f8d62560bd1b6ad6220eb2f/pydantic_settings-2.15.0-py3-none-any.whl
@@ -731,10 +741,12 @@ environments:
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/3f/6f/06c0824ee2611de47a0fc731fa57f6042d3f573025d9f504adfd65e50d51/banks-2.5.1-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/73/c0/77ba02423c2f7d7091143c45cd49e0e6575c4c1967394bb542bd923a9b74/cffi-2.1.1-cp311-cp311-win_amd64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/e8/fc/fdf8cf52ff21cd5bf158f20978991cf985325842f74283eb6df26c8a39d8/charset_normalizer-3.5.2-cp311-cp311-win_amd64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/9a/4f/adfc442765721292fff86d314ce385d3249d22db42295c0dd057727b60f3/cryptography-50.0.2-cp311-abi3-win_amd64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/c3/be/d0d44e092656fe7a06b55e6103cbce807cdbdee17884a5367c68c9860853/dataclasses_json-0.6.7-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/84/d0/205d54408c08b13550c733c4b85429e7ead111c7f0014309637425520a9a/deprecated-1.3.1-py2.py3-none-any.whl
@@ -785,6 +797,8 @@ environments:
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/91/89/f2b509f7bf79352e40117824c1070dbeafd4df67031d3fa98165a3134228/markupsafe-3.0.4-cp311-cp311-win_amd64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/be/2f/5108cb3ee4ba6501748c4908b908e55f42a5b66245b4cfe0c99326e1ef6e/marshmallow-3.26.2-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/f8/ea/78b33ab6fe73db1eeedc5df229450d7ff481ec9050f4bcc46e44ef1c00fb/modelscope-1.40.1-py3-none-any.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/5a/bc/8c1aa12b4abc094a4c1e2b3cd28686c750b4fad610eb1aa7acfe5d8c521e/modelscope_hub-0.4.5-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/91/17/c2064aef64efc007bc89a571f843e5772f27946eb9bc018731bf8016e319/multidict-6.9.1-cp311-cp311-win_amd64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl
@@ -800,6 +814,7 @@ environments:
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/63/c6/4bad1b18d132a50b27e1365e1ab163616f7a5bb56d330f66f9d1d9d4f9d4/pillow-12.3.0-cp311-cp311-win_amd64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/d0/89/446044f33aba0348d35e433f56d12206d010a5281a1df54054d4cfb82388/platformdirs-4.12.2-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/0a/8a/3db6a3543d8101263b4c52978b6276a04ead2caff2c5ab880d934f47bd89/propcache-0.5.4-cp311-cp311-win_amd64.whl
+      - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/eb/47/c95ffc2009878c7aac0c5e08528022dcb885933252a88b5f170058014464/pydantic-2.13.5-py3-none-any.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/9e/c2/718b9deb4b72453b5d8c7447a3b14cb77bef36917ef5f514e0948a4096a0/pydantic_core-2.46.5-cp311-cp311-win_amd64.whl
       - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/30/a4/2bffa9f8e804325a09867f0e9d30795c80ea9f8d62560bd1b6ad6220eb2f/pydantic_settings-2.15.0-py3-none-any.whl
@@ -1040,6 +1055,27 @@ packages:
   version: 2026.7.22
   sha256: 62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775
   requires_python: '>=3.7'
+- pypi: https://pypi.tuna.tsinghua.edu.cn/packages/73/c0/77ba02423c2f7d7091143c45cd49e0e6575c4c1967394bb542bd923a9b74/cffi-2.1.1-cp311-cp311-win_amd64.whl
+  name: cffi
+  version: 2.1.1
+  sha256: 42f6930c31dc7f50732c9ae793c2786c7b6b044195967bbdde40bb9be81c4cc0
+  requires_dist:
+  - pycparser ; implementation_name != 'PyPy'
+  requires_python: '>=3.10'
+- pypi: https://pypi.tuna.tsinghua.edu.cn/packages/cd/95/31b535a9f0220ae9f357de4a08d57ce89cb417653c2fd9f075f50822a388/cffi-2.1.1-cp311-cp311-macosx_11_0_arm64.whl
+  name: cffi
+  version: 2.1.1
+  sha256: 398aff33cee2767e3e781d2554c54bd0dff386bb437581e0d8011fde1a942ec1
+  requires_dist:
+  - pycparser ; implementation_name != 'PyPy'
+  requires_python: '>=3.10'
+- pypi: https://pypi.tuna.tsinghua.edu.cn/packages/f7/a4/4399daaf8f7dfee9d7c3327fdb0426ee041cc63edc358b93911ceb2bfc7a/cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+  name: cffi
+  version: 2.1.1
+  sha256: 34e261f78cb6ceaaa36f42f2613f4380d94d9c759a9c73c769ee6e0247364632
+  requires_dist:
+  - pycparser ; implementation_name != 'PyPy'
+  requires_python: '>=3.10'
 - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/22/67/6a0b94a7960d5e1b5eacd2fb529f3fccc47db4644f7f0a7cfdcfc3be578a/charset_normalizer-3.5.2-cp311-cp311-macosx_10_9_universal2.whl
   name: charset-normalizer
   version: 3.5.2
@@ -1070,6 +1106,33 @@ packages:
   version: 0.4.6
   sha256: 4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6
   requires_python: '>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*'
+- pypi: https://pypi.tuna.tsinghua.edu.cn/packages/1a/f1/b474e930c4d910328780e3940da76f5aa5cbc48ce1fc14e44d239d9ea9db/cryptography-50.0.2-cp311-abi3-manylinux_2_28_x86_64.whl
+  name: cryptography
+  version: 50.0.2
+  sha256: 4061c0079120205fb760c58acab6443e217307dcf05e3702cf970e0689972856
+  requires_dist:
+  - cffi>=2.0.0 ; platform_python_implementation != 'PyPy'
+  - typing-extensions>=4.13.2 ; python_full_version < '3.11'
+  - bcrypt>=3.1.5 ; extra == 'ssh'
+  requires_python: '>=3.9,!=3.9.0,!=3.9.1'
+- pypi: https://pypi.tuna.tsinghua.edu.cn/packages/9a/4f/adfc442765721292fff86d314ce385d3249d22db42295c0dd057727b60f3/cryptography-50.0.2-cp311-abi3-win_amd64.whl
+  name: cryptography
+  version: 50.0.2
+  sha256: 7afa5a6602a9f29af1f3a2965f831bae7c9d5d597b7cbb716d41ab3b7d89879c
+  requires_dist:
+  - cffi>=2.0.0 ; platform_python_implementation != 'PyPy'
+  - typing-extensions>=4.13.2 ; python_full_version < '3.11'
+  - bcrypt>=3.1.5 ; extra == 'ssh'
+  requires_python: '>=3.9,!=3.9.0,!=3.9.1'
+- pypi: https://pypi.tuna.tsinghua.edu.cn/packages/e5/56/d194340cc4a57535e82e1bee9e89667ac4b7c13b5d3f59686deae3094dd5/cryptography-50.0.2-cp311-abi3-macosx_11_0_arm64.whl
+  name: cryptography
+  version: 50.0.2
+  sha256: fa8f5efb344d6908a1ce62f4a24e2e5780f825d6f53f5f50ec5ffacac72936cb
+  requires_dist:
+  - cffi>=2.0.0 ; platform_python_implementation != 'PyPy'
+  - typing-extensions>=4.13.2 ; python_full_version < '3.11'
+  - bcrypt>=3.1.5 ; extra == 'ssh'
+  requires_python: '>=3.9,!=3.9.0,!=3.9.1'
 - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/ba/c7/ff34500e11229c5487bd7c35e03d0f91832ffde50bdb3f963f7aba485357/cuda_bindings-13.4.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
   name: cuda-bindings
   version: 13.4.3
@@ -2401,6 +2464,593 @@ packages:
   version: 0.1.2
   sha256: 84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8
   requires_python: '>=3.7'
+- pypi: https://pypi.tuna.tsinghua.edu.cn/packages/f8/ea/78b33ab6fe73db1eeedc5df229450d7ff481ec9050f4bcc46e44ef1c00fb/modelscope-1.40.1-py3-none-any.whl
+  name: modelscope
+  version: 1.40.1
+  sha256: 6f135fe80903e7bfcd6ccc707f4f6f85c8e445cf497b624bd07299582486e2c1
+  requires_dist:
+  - filelock
+  - modelscope-hub>=0.4.2
+  - packaging
+  - requests>=2.25
+  - setuptools
+  - tqdm>=4.64.0
+  - urllib3>=1.26
+  - filelock ; extra == 'hub'
+  - modelscope-hub>=0.4.2 ; extra == 'hub'
+  - packaging ; extra == 'hub'
+  - requests>=2.25 ; extra == 'hub'
+  - setuptools ; extra == 'hub'
+  - tqdm>=4.64.0 ; extra == 'hub'
+  - urllib3>=1.26 ; extra == 'hub'
+  - addict ; extra == 'datasets'
+  - attrs ; extra == 'datasets'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'datasets'
+  - einops ; extra == 'datasets'
+  - oss2 ; extra == 'datasets'
+  - pillow ; extra == 'datasets'
+  - python-dateutil>=2.1 ; extra == 'datasets'
+  - scipy ; extra == 'datasets'
+  - setuptools ; extra == 'datasets'
+  - simplejson>=3.3.0 ; extra == 'datasets'
+  - sortedcontainers>=1.5.9 ; extra == 'datasets'
+  - urllib3>=1.26 ; extra == 'datasets'
+  - addict ; extra == 'framework'
+  - attrs ; extra == 'framework'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'framework'
+  - einops ; extra == 'framework'
+  - pillow ; extra == 'framework'
+  - python-dateutil>=2.1 ; extra == 'framework'
+  - pyyaml>=5.4 ; extra == 'framework'
+  - scipy ; extra == 'framework'
+  - setuptools ; extra == 'framework'
+  - simplejson>=3.3.0 ; extra == 'framework'
+  - sortedcontainers>=1.5.9 ; extra == 'framework'
+  - transformers ; extra == 'framework'
+  - urllib3>=1.26 ; extra == 'framework'
+  - fastapi ; extra == 'server'
+  - sse-starlette ; extra == 'server'
+  - uvicorn ; extra == 'server'
+  - docutils>=0.16.0 ; extra == 'docs'
+  - myst-parser ; extra == 'docs'
+  - recommonmark ; extra == 'docs'
+  - sphinx>=5.3.0 ; extra == 'docs'
+  - sphinx-book-theme ; extra == 'docs'
+  - sphinx-copybutton ; extra == 'docs'
+  - sphinx-markdown-tables ; extra == 'docs'
+  - expecttest ; extra == 'tests'
+  - flake8 ; extra == 'tests'
+  - isort>=4.3.21 ; extra == 'tests'
+  - pre-commit ; extra == 'tests'
+  - yapf==0.30.0 ; extra == 'tests'
+  - addict ; extra == 'cv'
+  - attrs ; extra == 'cv'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'cv'
+  - einops ; extra == 'cv'
+  - pillow ; extra == 'cv'
+  - python-dateutil>=2.1 ; extra == 'cv'
+  - pyyaml>=5.4 ; extra == 'cv'
+  - scipy ; extra == 'cv'
+  - setuptools ; extra == 'cv'
+  - simplejson>=3.3.0 ; extra == 'cv'
+  - sortedcontainers>=1.5.9 ; extra == 'cv'
+  - transformers ; extra == 'cv'
+  - urllib3>=1.26 ; extra == 'cv'
+  - accelerate ; extra == 'cv'
+  - albumentations>=1.0.3 ; extra == 'cv'
+  - av>=9.2.0 ; extra == 'cv'
+  - bmt-clipit>=1.0 ; extra == 'cv'
+  - chumpy ; extra == 'cv'
+  - clip>=1.0 ; extra == 'cv'
+  - control-ldm ; extra == 'cv'
+  - ddpm-guided-diffusion==0.0.0 ; extra == 'cv'
+  - diffusers ; extra == 'cv'
+  - easydict ; extra == 'cv'
+  - edit-distance ; extra == 'cv'
+  - face-alignment>=1.3.5 ; extra == 'cv'
+  - fairscale>=0.4.1 ; extra == 'cv'
+  - fastai>=1.0.51 ; extra == 'cv'
+  - ffmpeg>=1.4 ; extra == 'cv'
+  - ffmpeg-python>=0.2.0 ; extra == 'cv'
+  - ftfy ; extra == 'cv'
+  - fvcore ; extra == 'cv'
+  - imageio>=2.9.0 ; extra == 'cv'
+  - imageio-ffmpeg>=0.4.2 ; extra == 'cv'
+  - imgaug>=0.4.0 ; extra == 'cv'
+  - kornia>=0.5.0 ; extra == 'cv'
+  - lmdb ; extra == 'cv'
+  - lpips ; extra == 'cv'
+  - matplotlib>=3.8.0 ; extra == 'cv'
+  - ml-collections ; extra == 'cv'
+  - mmcls>=0.21.0 ; extra == 'cv'
+  - mmdet>=2.25.0,<=2.28.2 ; extra == 'cv'
+  - mmdet3d==1.0.0a1 ; extra == 'cv'
+  - mmsegmentation<=0.30.0 ; extra == 'cv'
+  - moviepy==1.0.3 ; extra == 'cv'
+  - nerfacc==0.2.2 ; extra == 'cv'
+  - networkx ; extra == 'cv'
+  - numba ; extra == 'cv'
+  - omegaconf ; extra == 'cv'
+  - onnx ; extra == 'cv'
+  - onnxruntime>=1.10 ; extra == 'cv'
+  - onnxsim ; extra == 'cv'
+  - open-clip-torch>=2.7.0 ; extra == 'cv'
+  - opencv-python ; extra == 'cv'
+  - paint-ldm ; extra == 'cv'
+  - pandas ; extra == 'cv'
+  - panopticapi ; extra == 'cv'
+  - pillow>=6.2.0 ; extra == 'cv'
+  - plyfile>=0.7.4 ; extra == 'cv'
+  - psutil ; extra == 'cv'
+  - pyclipper ; extra == 'cv'
+  - pymcubes<=0.1.4 ; extra == 'cv'
+  - pytorch-lightning ; extra == 'cv'
+  - regex ; extra == 'cv'
+  - scikit-image ; extra == 'cv'
+  - scikit-learn ; extra == 'cv'
+  - shapely ; extra == 'cv'
+  - shotdetect-scenedetect-lgss==0.0.4 ; extra == 'cv'
+  - smplx ; extra == 'cv'
+  - tensorflow-estimator>=1.15.1 ; extra == 'cv'
+  - tf-slim ; extra == 'cv'
+  - thop ; extra == 'cv'
+  - timm>=0.4.9 ; extra == 'cv'
+  - torch-scatter ; extra == 'cv'
+  - torchmetrics>=0.6.2 ; extra == 'cv'
+  - torchsummary>=1.5.1 ; extra == 'cv'
+  - torchvision ; extra == 'cv'
+  - tqdm ; extra == 'cv'
+  - transformers>=4.26.0 ; extra == 'cv'
+  - trimesh ; extra == 'cv'
+  - ujson ; extra == 'cv'
+  - utils ; extra == 'cv'
+  - videofeatures-clipit>=1.0 ; extra == 'cv'
+  - yacs ; extra == 'cv'
+  - addict ; extra == 'nlp'
+  - attrs ; extra == 'nlp'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'nlp'
+  - einops ; extra == 'nlp'
+  - pillow ; extra == 'nlp'
+  - python-dateutil>=2.1 ; extra == 'nlp'
+  - pyyaml>=5.4 ; extra == 'nlp'
+  - scipy ; extra == 'nlp'
+  - setuptools ; extra == 'nlp'
+  - simplejson>=3.3.0 ; extra == 'nlp'
+  - sortedcontainers>=1.5.9 ; extra == 'nlp'
+  - transformers ; extra == 'nlp'
+  - urllib3>=1.26 ; extra == 'nlp'
+  - boto3 ; extra == 'nlp'
+  - embeddings ; extra == 'nlp'
+  - filelock ; extra == 'nlp'
+  - ftfy ; extra == 'nlp'
+  - jieba>=0.42.1 ; extra == 'nlp'
+  - matplotlib ; extra == 'nlp'
+  - megatron-util ; extra == 'nlp'
+  - nltk ; extra == 'nlp'
+  - pandas ; extra == 'nlp'
+  - protobuf>=3.19.0,<3.21.0 ; extra == 'nlp'
+  - pythainlp ; extra == 'nlp'
+  - pyvi ; extra == 'nlp'
+  - regex ; extra == 'nlp'
+  - rouge ; extra == 'nlp'
+  - sacremoses>=0.0.41 ; extra == 'nlp'
+  - scikit-learn ; extra == 'nlp'
+  - sentencepiece ; extra == 'nlp'
+  - seqeval ; extra == 'nlp'
+  - spacy>=2.3.5,<=3.7.0 ; extra == 'nlp'
+  - stanza ; extra == 'nlp'
+  - subword-nmt>=0.3.8 ; extra == 'nlp'
+  - termcolor ; extra == 'nlp'
+  - tokenizers ; extra == 'nlp'
+  - transformers>=4.12.0 ; extra == 'nlp'
+  - zhconv ; extra == 'nlp'
+  - addict ; extra == 'multi-modal'
+  - attrs ; extra == 'multi-modal'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'multi-modal'
+  - einops ; extra == 'multi-modal'
+  - pillow ; extra == 'multi-modal'
+  - python-dateutil>=2.1 ; extra == 'multi-modal'
+  - pyyaml>=5.4 ; extra == 'multi-modal'
+  - scipy ; extra == 'multi-modal'
+  - setuptools ; extra == 'multi-modal'
+  - simplejson>=3.3.0 ; extra == 'multi-modal'
+  - sortedcontainers>=1.5.9 ; extra == 'multi-modal'
+  - transformers ; extra == 'multi-modal'
+  - urllib3>=1.26 ; extra == 'multi-modal'
+  - accelerate ; extra == 'multi-modal'
+  - cloudpickle ; extra == 'multi-modal'
+  - decord>=0.6.0 ; extra == 'multi-modal'
+  - diffusers>=0.25.0 ; extra == 'multi-modal'
+  - fairseq-fixed==0.12.3.1 ; extra == 'multi-modal'
+  - ftfy>=6.0.3 ; extra == 'multi-modal'
+  - librosa==0.10.1 ; extra == 'multi-modal'
+  - opencv-python ; extra == 'multi-modal'
+  - pycocoevalcap>=1.2 ; extra == 'multi-modal'
+  - pycocotools>=2.0.4 ; extra == 'multi-modal'
+  - pydot ; extra == 'multi-modal'
+  - pytorch-lightning<=1.7.7 ; extra == 'multi-modal'
+  - rapidfuzz ; extra == 'multi-modal'
+  - rouge-score<=0.0.4 ; extra == 'multi-modal'
+  - sacrebleu ; extra == 'multi-modal'
+  - safetensors ; extra == 'multi-modal'
+  - soundfile ; extra == 'multi-modal'
+  - taming-transformers-rom1504 ; extra == 'multi-modal'
+  - timm ; extra == 'multi-modal'
+  - tokenizers ; extra == 'multi-modal'
+  - torchvision ; extra == 'multi-modal'
+  - transformers>=4.27.1 ; extra == 'multi-modal'
+  - unicodedata2 ; extra == 'multi-modal'
+  - zhconv ; extra == 'multi-modal'
+  - addict ; extra == 'science'
+  - attrs ; extra == 'science'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'science'
+  - einops ; extra == 'science'
+  - pillow ; extra == 'science'
+  - python-dateutil>=2.1 ; extra == 'science'
+  - pyyaml>=5.4 ; extra == 'science'
+  - scipy ; extra == 'science'
+  - setuptools ; extra == 'science'
+  - simplejson>=3.3.0 ; extra == 'science'
+  - sortedcontainers>=1.5.9 ; extra == 'science'
+  - transformers ; extra == 'science'
+  - urllib3>=1.26 ; extra == 'science'
+  - biopython ; extra == 'science'
+  - iopath ; extra == 'science'
+  - ipdb ; extra == 'science'
+  - lmdb ; extra == 'science'
+  - ml-collections ; extra == 'science'
+  - scipy ; extra == 'science'
+  - tensorboardx ; extra == 'science'
+  - tokenizers ; extra == 'science'
+  - addict ; extra == 'audio-asr'
+  - attrs ; extra == 'audio-asr'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'audio-asr'
+  - einops ; extra == 'audio-asr'
+  - pillow ; extra == 'audio-asr'
+  - python-dateutil>=2.1 ; extra == 'audio-asr'
+  - pyyaml>=5.4 ; extra == 'audio-asr'
+  - scipy ; extra == 'audio-asr'
+  - setuptools ; extra == 'audio-asr'
+  - simplejson>=3.3.0 ; extra == 'audio-asr'
+  - sortedcontainers>=1.5.9 ; extra == 'audio-asr'
+  - transformers ; extra == 'audio-asr'
+  - urllib3>=1.26 ; extra == 'audio-asr'
+  - funasr>=1.0.0 ; extra == 'audio-asr'
+  - addict ; extra == 'audio-codec'
+  - attrs ; extra == 'audio-codec'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'audio-codec'
+  - einops ; extra == 'audio-codec'
+  - pillow ; extra == 'audio-codec'
+  - python-dateutil>=2.1 ; extra == 'audio-codec'
+  - pyyaml>=5.4 ; extra == 'audio-codec'
+  - scipy ; extra == 'audio-codec'
+  - setuptools ; extra == 'audio-codec'
+  - simplejson>=3.3.0 ; extra == 'audio-codec'
+  - sortedcontainers>=1.5.9 ; extra == 'audio-codec'
+  - transformers ; extra == 'audio-codec'
+  - urllib3>=1.26 ; extra == 'audio-codec'
+  - ms-funcodec>=0.2.0 ; extra == 'audio-codec'
+  - addict ; extra == 'audio-tts'
+  - attrs ; extra == 'audio-tts'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'audio-tts'
+  - einops ; extra == 'audio-tts'
+  - pillow ; extra == 'audio-tts'
+  - python-dateutil>=2.1 ; extra == 'audio-tts'
+  - pyyaml>=5.4 ; extra == 'audio-tts'
+  - scipy ; extra == 'audio-tts'
+  - setuptools ; extra == 'audio-tts'
+  - simplejson>=3.3.0 ; extra == 'audio-tts'
+  - sortedcontainers>=1.5.9 ; extra == 'audio-tts'
+  - transformers ; extra == 'audio-tts'
+  - urllib3>=1.26 ; extra == 'audio-tts'
+  - bitstring ; extra == 'audio-tts'
+  - greenlet>=1.1.2 ; extra == 'audio-tts'
+  - inflect ; extra == 'audio-tts'
+  - jedi>=0.18.1 ; extra == 'audio-tts'
+  - kantts ; extra == 'audio-tts'
+  - librosa==0.10.1 ; extra == 'audio-tts'
+  - lxml ; extra == 'audio-tts'
+  - matplotlib ; extra == 'audio-tts'
+  - msgpack>=1.0.4 ; extra == 'audio-tts'
+  - parso>=0.8.3 ; extra == 'audio-tts'
+  - pexpect>=4.8.0 ; extra == 'audio-tts'
+  - pickleshare>=0.7.5 ; extra == 'audio-tts'
+  - prompt-toolkit>=3.0.30 ; extra == 'audio-tts'
+  - protobuf ; extra == 'audio-tts'
+  - ptflops ; extra == 'audio-tts'
+  - ptyprocess>=0.7.0 ; extra == 'audio-tts'
+  - pygments>=2.12.0 ; extra == 'audio-tts'
+  - pytorch-wavelets ; extra == 'audio-tts'
+  - pywavelets>=1.0.0 ; extra == 'audio-tts'
+  - scikit-learn ; extra == 'audio-tts'
+  - sox ; extra == 'audio-tts'
+  - tensorboardx ; extra == 'audio-tts'
+  - tqdm ; extra == 'audio-tts'
+  - traitlets>=5.3.0 ; extra == 'audio-tts'
+  - unidecode ; extra == 'audio-tts'
+  - wcwidth>=0.2.5 ; extra == 'audio-tts'
+  - addict ; extra == 'audio-kws'
+  - attrs ; extra == 'audio-kws'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'audio-kws'
+  - einops ; extra == 'audio-kws'
+  - pillow ; extra == 'audio-kws'
+  - python-dateutil>=2.1 ; extra == 'audio-kws'
+  - pyyaml>=5.4 ; extra == 'audio-kws'
+  - scipy ; extra == 'audio-kws'
+  - setuptools ; extra == 'audio-kws'
+  - simplejson>=3.3.0 ; extra == 'audio-kws'
+  - sortedcontainers>=1.5.9 ; extra == 'audio-kws'
+  - transformers ; extra == 'audio-kws'
+  - urllib3>=1.26 ; extra == 'audio-kws'
+  - kaldiio ; extra == 'audio-kws'
+  - matplotlib ; extra == 'audio-kws'
+  - py-sound-connect>=0.1 ; extra == 'audio-kws'
+  - scipy ; extra == 'audio-kws'
+  - soundfile>0.10 ; extra == 'audio-kws'
+  - tensorboardx ; extra == 'audio-kws'
+  - addict ; extra == 'audio-signal'
+  - attrs ; extra == 'audio-signal'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'audio-signal'
+  - einops ; extra == 'audio-signal'
+  - pillow ; extra == 'audio-signal'
+  - python-dateutil>=2.1 ; extra == 'audio-signal'
+  - pyyaml>=5.4 ; extra == 'audio-signal'
+  - scipy ; extra == 'audio-signal'
+  - setuptools ; extra == 'audio-signal'
+  - simplejson>=3.3.0 ; extra == 'audio-signal'
+  - sortedcontainers>=1.5.9 ; extra == 'audio-signal'
+  - transformers ; extra == 'audio-signal'
+  - urllib3>=1.26 ; extra == 'audio-signal'
+  - hdbscan ; extra == 'audio-signal'
+  - hyperpyyaml ; extra == 'audio-signal'
+  - librosa==0.10.1 ; extra == 'audio-signal'
+  - mindaec==0.0.2 ; extra == 'audio-signal'
+  - mir-eval>=0.7 ; extra == 'audio-signal'
+  - rotary-embedding-torch>=0.1.5 ; extra == 'audio-signal'
+  - scipy ; extra == 'audio-signal'
+  - soundfile>0.10 ; extra == 'audio-signal'
+  - speechbrain>=0.5.12 ; extra == 'audio-signal'
+  - torchaudio ; extra == 'audio-signal'
+  - tqdm ; extra == 'audio-signal'
+  - umap-learn ; extra == 'audio-signal'
+  - addict ; extra == 'audio'
+  - attrs ; extra == 'audio'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'audio'
+  - einops ; extra == 'audio'
+  - pillow ; extra == 'audio'
+  - python-dateutil>=2.1 ; extra == 'audio'
+  - pyyaml>=5.4 ; extra == 'audio'
+  - scipy ; extra == 'audio'
+  - setuptools ; extra == 'audio'
+  - simplejson>=3.3.0 ; extra == 'audio'
+  - sortedcontainers>=1.5.9 ; extra == 'audio'
+  - transformers ; extra == 'audio'
+  - urllib3>=1.26 ; extra == 'audio'
+  - funasr>=1.0.0 ; extra == 'audio'
+  - ms-funcodec>=0.2.0 ; extra == 'audio'
+  - bitstring ; extra == 'audio'
+  - greenlet>=1.1.2 ; extra == 'audio'
+  - inflect ; extra == 'audio'
+  - jedi>=0.18.1 ; extra == 'audio'
+  - kantts ; extra == 'audio'
+  - librosa==0.10.1 ; extra == 'audio'
+  - lxml ; extra == 'audio'
+  - matplotlib ; extra == 'audio'
+  - msgpack>=1.0.4 ; extra == 'audio'
+  - parso>=0.8.3 ; extra == 'audio'
+  - pexpect>=4.8.0 ; extra == 'audio'
+  - pickleshare>=0.7.5 ; extra == 'audio'
+  - prompt-toolkit>=3.0.30 ; extra == 'audio'
+  - protobuf ; extra == 'audio'
+  - ptflops ; extra == 'audio'
+  - ptyprocess>=0.7.0 ; extra == 'audio'
+  - pygments>=2.12.0 ; extra == 'audio'
+  - pytorch-wavelets ; extra == 'audio'
+  - pywavelets>=1.0.0 ; extra == 'audio'
+  - scikit-learn ; extra == 'audio'
+  - sox ; extra == 'audio'
+  - tensorboardx ; extra == 'audio'
+  - tqdm ; extra == 'audio'
+  - traitlets>=5.3.0 ; extra == 'audio'
+  - unidecode ; extra == 'audio'
+  - wcwidth>=0.2.5 ; extra == 'audio'
+  - kaldiio ; extra == 'audio'
+  - matplotlib ; extra == 'audio'
+  - py-sound-connect>=0.1 ; extra == 'audio'
+  - scipy ; extra == 'audio'
+  - soundfile>0.10 ; extra == 'audio'
+  - tensorboardx ; extra == 'audio'
+  - hdbscan ; extra == 'audio'
+  - hyperpyyaml ; extra == 'audio'
+  - librosa==0.10.1 ; extra == 'audio'
+  - mindaec==0.0.2 ; extra == 'audio'
+  - mir-eval>=0.7 ; extra == 'audio'
+  - rotary-embedding-torch>=0.1.5 ; extra == 'audio'
+  - scipy ; extra == 'audio'
+  - soundfile>0.10 ; extra == 'audio'
+  - speechbrain>=0.5.12 ; extra == 'audio'
+  - torchaudio ; extra == 'audio'
+  - tqdm ; extra == 'audio'
+  - umap-learn ; extra == 'audio'
+  - filelock ; extra == 'all'
+  - modelscope-hub>=0.4.2 ; extra == 'all'
+  - packaging ; extra == 'all'
+  - requests>=2.25 ; extra == 'all'
+  - setuptools ; extra == 'all'
+  - tqdm>=4.64.0 ; extra == 'all'
+  - urllib3>=1.26 ; extra == 'all'
+  - addict ; extra == 'all'
+  - attrs ; extra == 'all'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'all'
+  - einops ; extra == 'all'
+  - oss2 ; extra == 'all'
+  - pillow ; extra == 'all'
+  - python-dateutil>=2.1 ; extra == 'all'
+  - scipy ; extra == 'all'
+  - setuptools ; extra == 'all'
+  - simplejson>=3.3.0 ; extra == 'all'
+  - sortedcontainers>=1.5.9 ; extra == 'all'
+  - urllib3>=1.26 ; extra == 'all'
+  - addict ; extra == 'all'
+  - attrs ; extra == 'all'
+  - datasets>=4.0.0,<=4.8.4 ; extra == 'all'
+  - einops ; extra == 'all'
+  - pillow ; extra == 'all'
+  - python-dateutil>=2.1 ; extra == 'all'
+  - pyyaml>=5.4 ; extra == 'all'
+  - scipy ; extra == 'all'
+  - setuptools ; extra == 'all'
+  - simplejson>=3.3.0 ; extra == 'all'
+  - sortedcontainers>=1.5.9 ; extra == 'all'
+  - transformers ; extra == 'all'
+  - urllib3>=1.26 ; extra == 'all'
+  - accelerate ; extra == 'all'
+  - albumentations>=1.0.3 ; extra == 'all'
+  - av>=9.2.0 ; extra == 'all'
+  - bmt-clipit>=1.0 ; extra == 'all'
+  - chumpy ; extra == 'all'
+  - clip>=1.0 ; extra == 'all'
+  - control-ldm ; extra == 'all'
+  - ddpm-guided-diffusion==0.0.0 ; extra == 'all'
+  - diffusers ; extra == 'all'
+  - easydict ; extra == 'all'
+  - edit-distance ; extra == 'all'
+  - face-alignment>=1.3.5 ; extra == 'all'
+  - fairscale>=0.4.1 ; extra == 'all'
+  - fastai>=1.0.51 ; extra == 'all'
+  - ffmpeg>=1.4 ; extra == 'all'
+  - ffmpeg-python>=0.2.0 ; extra == 'all'
+  - ftfy ; extra == 'all'
+  - fvcore ; extra == 'all'
+  - imageio>=2.9.0 ; extra == 'all'
+  - imageio-ffmpeg>=0.4.2 ; extra == 'all'
+  - imgaug>=0.4.0 ; extra == 'all'
+  - kornia>=0.5.0 ; extra == 'all'
+  - lmdb ; extra == 'all'
+  - lpips ; extra == 'all'
+  - matplotlib>=3.8.0 ; extra == 'all'
+  - ml-collections ; extra == 'all'
+  - mmcls>=0.21.0 ; extra == 'all'
+  - mmdet>=2.25.0,<=2.28.2 ; extra == 'all'
+  - mmdet3d==1.0.0a1 ; extra == 'all'
+  - mmsegmentation<=0.30.0 ; extra == 'all'
+  - moviepy==1.0.3 ; extra == 'all'
+  - nerfacc==0.2.2 ; extra == 'all'
+  - networkx ; extra == 'all'
+  - numba ; extra == 'all'
+  - omegaconf ; extra == 'all'
+  - onnx ; extra == 'all'
+  - onnxruntime>=1.10 ; extra == 'all'
+  - onnxsim ; extra == 'all'
+  - open-clip-torch>=2.7.0 ; extra == 'all'
+  - opencv-python ; extra == 'all'
+  - paint-ldm ; extra == 'all'
+  - pandas ; extra == 'all'
+  - panopticapi ; extra == 'all'
+  - pillow>=6.2.0 ; extra == 'all'
+  - plyfile>=0.7.4 ; extra == 'all'
+  - psutil ; extra == 'all'
+  - pyclipper ; extra == 'all'
+  - pymcubes<=0.1.4 ; extra == 'all'
+  - pytorch-lightning ; extra == 'all'
+  - regex ; extra == 'all'
+  - scikit-image ; extra == 'all'
+  - scikit-learn ; extra == 'all'
+  - shapely ; extra == 'all'
+  - shotdetect-scenedetect-lgss==0.0.4 ; extra == 'all'
+  - smplx ; extra == 'all'
+  - tensorflow-estimator>=1.15.1 ; extra == 'all'
+  - tf-slim ; extra == 'all'
+  - thop ; extra == 'all'
+  - timm>=0.4.9 ; extra == 'all'
+  - torch-scatter ; extra == 'all'
+  - torchmetrics>=0.6.2 ; extra == 'all'
+  - torchsummary>=1.5.1 ; extra == 'all'
+  - torchvision ; extra == 'all'
+  - tqdm ; extra == 'all'
+  - transformers>=4.26.0 ; extra == 'all'
+  - trimesh ; extra == 'all'
+  - ujson ; extra == 'all'
+  - utils ; extra == 'all'
+  - videofeatures-clipit>=1.0 ; extra == 'all'
+  - yacs ; extra == 'all'
+  - boto3 ; extra == 'all'
+  - embeddings ; extra == 'all'
+  - filelock ; extra == 'all'
+  - ftfy ; extra == 'all'
+  - jieba>=0.42.1 ; extra == 'all'
+  - matplotlib ; extra == 'all'
+  - megatron-util ; extra == 'all'
+  - nltk ; extra == 'all'
+  - pandas ; extra == 'all'
+  - protobuf>=3.19.0,<3.21.0 ; extra == 'all'
+  - pythainlp ; extra == 'all'
+  - pyvi ; extra == 'all'
+  - regex ; extra == 'all'
+  - rouge ; extra == 'all'
+  - sacremoses>=0.0.41 ; extra == 'all'
+  - scikit-learn ; extra == 'all'
+  - sentencepiece ; extra == 'all'
+  - seqeval ; extra == 'all'
+  - spacy>=2.3.5,<=3.7.0 ; extra == 'all'
+  - stanza ; extra == 'all'
+  - subword-nmt>=0.3.8 ; extra == 'all'
+  - termcolor ; extra == 'all'
+  - tokenizers ; extra == 'all'
+  - transformers>=4.12.0 ; extra == 'all'
+  - zhconv ; extra == 'all'
+  - accelerate ; extra == 'all'
+  - cloudpickle ; extra == 'all'
+  - decord>=0.6.0 ; extra == 'all'
+  - diffusers>=0.25.0 ; extra == 'all'
+  - fairseq-fixed==0.12.3.1 ; extra == 'all'
+  - ftfy>=6.0.3 ; extra == 'all'
+  - librosa==0.10.1 ; extra == 'all'
+  - opencv-python ; extra == 'all'
+  - pycocoevalcap>=1.2 ; extra == 'all'
+  - pycocotools>=2.0.4 ; extra == 'all'
+  - pydot ; extra == 'all'
+  - pytorch-lightning<=1.7.7 ; extra == 'all'
+  - rapidfuzz ; extra == 'all'
+  - rouge-score<=0.0.4 ; extra == 'all'
+  - sacrebleu ; extra == 'all'
+  - safetensors ; extra == 'all'
+  - soundfile ; extra == 'all'
+  - taming-transformers-rom1504 ; extra == 'all'
+  - timm ; extra == 'all'
+  - tokenizers ; extra == 'all'
+  - torchvision ; extra == 'all'
+  - transformers>=4.27.1 ; extra == 'all'
+  - unicodedata2 ; extra == 'all'
+  - zhconv ; extra == 'all'
+  - biopython ; extra == 'all'
+  - iopath ; extra == 'all'
+  - ipdb ; extra == 'all'
+  - lmdb ; extra == 'all'
+  - ml-collections ; extra == 'all'
+  - scipy ; extra == 'all'
+  - tensorboardx ; extra == 'all'
+  - tokenizers ; extra == 'all'
+  - fastapi ; extra == 'all'
+  - sse-starlette ; extra == 'all'
+  - uvicorn ; extra == 'all'
+  requires_python: '>=3.10'
+- pypi: https://pypi.tuna.tsinghua.edu.cn/packages/5a/bc/8c1aa12b4abc094a4c1e2b3cd28686c750b4fad610eb1aa7acfe5d8c521e/modelscope_hub-0.4.5-py3-none-any.whl
+  name: modelscope-hub
+  version: 0.4.5
+  sha256: 9157bbc34d93a70d099c8ab87a113fc9a4149e31ab79e8eb8f7563884043f082
+  requires_dist:
+  - requests>=2.28
+  - tqdm>=4.64.0
+  - filelock>=3.9
+  - urllib3>=1.26
+  - cryptography>=41
+  - pytest>=7.0 ; extra == 'dev'
+  - pytest-mock ; extra == 'dev'
+  - responses>=0.20 ; extra == 'dev'
+  - ruff ; extra == 'dev'
+  - mypy ; extra == 'dev'
+  requires_python: '>=3.10'
 - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl
   name: mpmath
   version: 1.3.0
@@ -2887,6 +3537,11 @@ packages:
   name: propcache
   version: 0.5.4
   sha256: 6e9368e87a3efc285e559131092c5db643eb8e56de4ee42064d5baec22ef2bb5
+  requires_python: '>=3.10'
+- pypi: https://pypi.tuna.tsinghua.edu.cn/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl
+  name: pycparser
+  version: '3.0'
+  sha256: b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992
   requires_python: '>=3.10'
 - pypi: https://pypi.tuna.tsinghua.edu.cn/packages/eb/47/c95ffc2009878c7aac0c5e08528022dcb885933252a88b5f170058014464/pydantic-2.13.5-py3-none-any.whl
   name: pydantic

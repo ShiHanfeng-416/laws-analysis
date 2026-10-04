@@ -36,6 +36,7 @@ faiss-cpu = ">=1.9"
 llama-index-core = ">=0.12"
 llama-index-vector-stores-faiss = ">=0.3"
 llama-index-embeddings-openai = ">=0.3"
+llama-index-llms-openai-like = ">=0.3"   # OpenAI 兼容协议的 LI 侧实现（智谱/DeepSeek/Ollama）
 # 工程杂项
 python-dotenv = ">=1.0"
 rich = ">=13.0"
@@ -70,6 +71,8 @@ fetch-laws = "python scripts/fetch_laws.py"
 fetch-laws-dry = "python scripts/fetch_laws.py --dry-run"
 build-index = { cmd = "python -m law_rag.build_index", description = "构建 / 增量更新 FAISS 向量索引" }
 ask = { cmd = "python -m law_rag.ask", description = "提问，例：pixi run ask 房东不退押金怎么办" }
+review = { cmd = "python -m law_rag.review", description = "合同审查，例：pixi run review examples/rental_contract.txt --out report.md" }
+compare-engines = { cmd = "python scripts/compare_engines.py", description = "双引擎对比评测（AC-5）" }
 
 [activation]
 # PYTHONNOUSERSITE：屏蔽用户全局 site-packages，保证只用本环境锁定的依赖版本

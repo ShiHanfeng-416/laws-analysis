@@ -62,6 +62,7 @@ app = { cmd = "python -m streamlit run app.py", description = "启动 Web UI" }
 [environments]
 local-embed = ["local-embed"]
 ui = ["ui"]
+full = ["local-embed", "ui"]   # 本地 Embedding + Streamlit 同环境（pixi run -e full app）
 
 # ---------------------------------------------------------------------------
 # 常用命令

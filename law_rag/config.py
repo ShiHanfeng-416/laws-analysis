@@ -174,6 +174,6 @@ def get_settings() -> Settings:
         top_k=_env_int("TOP_K", 6),
         chunk_size=_env_int("CHUNK_SIZE", 600),
         chunk_overlap=_env_int("CHUNK_OVERLAP", 120),
-        laws_dir=_env_path("LAWS_DIR", "data"),
+        laws_dir=_env_path("LAWS_DIR", "data/laws"),  # 对齐架构 §3：语料入口是 data/laws/
         index_dir=_env_path("INDEX_DIR", "data/index"),  # 对齐架构 §6 与 .gitignore：索引落 data/index/
     )

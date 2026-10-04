@@ -117,6 +117,12 @@ class VectorStore:
         assert self.index is not None, "先 create() 或 load()"
         if not chunks:
             return
+        # 防重：chunk_id 是 docstore 的 key，重复会静默覆盖成"向量孤儿"
+        #（faiss 里两条向量指向同一 chunk_id）。曾因语料文件正文重复两遍触发，
+        # 这类 bug 检索结果"看起来正常"，必须在建库入口拦下。
+        clashed = [c.chunk_id for c in chunks if c.chunk_id in self.docstore]
+        if clashed:
+            raise ValueError(f"chunk_id 重复入库：{clashed[:3]}…共 {len(clashed)} 个")
         ids = np.arange(self._next_id, self._next_id + len(chunks), dtype=np.int64)
         self.index.add_with_ids(np.ascontiguousarray(vectors, dtype=np.float32), ids)
         for chunk, fid in zip(chunks, ids.tolist()):
